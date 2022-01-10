@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Hoverstatus: hsl(225, 18%, 53%);
+  --Darkblue: hsl(223, 44%, 40%);
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: var(--Paleblue);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main {
+  background: white;
+  width: 380px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.img-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 380px;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 1.5rem;
+}
+
+.middle-text {
+  text-align: center;
+}
+
+.summary {
+  font-size: 1.333rem;
+  padding: 0 1rem .5rem;
+  color: var(--Darkblue);
+}
+
+.shorts {
+  padding: 0 3rem 1rem;
+  font-size: 1rem;
+  color: var(--Desaturatedblue);
+}
+
+.box-message {
+  background-color: var(--Verypaleblue);
+  padding: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.trap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 5.5rem;
+  text-align: center;
+}
+
+.trap img {
+  height: 3rem;
+  padding-right: 1rem;
+}
+
+.texts1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.texts1 .nip {
+  color: var(--Darkblue);
+  font-weight: bolder;
+  padding-bottom: .4rem;
+  font-size: 0.9rem;
+}
+
+.texts1 .price {
+  color: var(--Desaturatedblue);
+}
+
+.change {
+  color: var(--Brightblue);
+  padding-top: .8rem;
+  font-weight: 100;
+  font-size: .8rem;
+}
+
+.change:hover {
+  opacity: 70%;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.btn-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.btn-link .payment {
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--Brightblue);
+  border-radius: 10px;
+  padding: .8rem;
+  color: white;
+  margin-bottom: .9rem;
+}
+
+.btn-link .payment:hover {
+  opacity: 50%;
+}
+
+.btn-link .cancel {
+  text-decoration: none;
+  color: var(--Desaturatedblue);
+  padding-top: .5rem;
+  padding-bottom: 0;
+  font-weight: bolder;
+}
+
+.btn-link .cancel:hover {
+  color: var(--Darkblue);
+}
+/*# sourceMappingURL=style.css.map */
